@@ -2,8 +2,6 @@
 import {test,expect} from '@playwright/experimental-ct-react';
 import {App} from './App';
 
-test.use({ viewport: { width: 1368, height: 768 } });
-
 test("Confirm rendering of React App", async ({mount, page}) => {
     const component =await mount(
     <App />

@@ -1,7 +1,7 @@
 {
   "name": "playwrightcomponenttesting",
   "version": "1.0.0",
-  "description": "Using a typescript react app as a starting point\r npx create-react-app react-page --template typescript\r (confiming compilation using npm start from the subdirectory)",
+  "description": "To evaluate Playwright's abiltity to perform component testing for a React application",
   "main": "index.js",
   "scripts": {
     "test-ct": "playwright test -c playwright-ct.config.ts"

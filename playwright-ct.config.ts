@@ -33,17 +33,19 @@ const config: PlaywrightTestConfig = {
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'chromium 1368x768',
       use: {
-        ...devices['Desktop Chrome'],
+        ...devices["Desktop Chrome"],
+        viewport: { width: 1368, height: 768 }
       },
     },
     {
-      name: 'webkit',
+      name: 'chromium 360x800',
       use: {
-        ...devices['Desktop Chrome'],
+        ...devices["Desktop Chrome"],
+        viewport: { width: 360, height: 800 }
       },
-    }
+    },
   ],
 };
 
